@@ -82,11 +82,10 @@ public class UserEntity {
 
 	public void setPassword(String password) {
 		this.password = password;
-	}	
-	
+	}
+
 	@JsonIgnore
-	public Integer getNewId()
-	{
+	public Integer getNewId() {
 		return new Random().nextInt();
 	}
 
